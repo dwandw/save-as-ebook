@@ -1,0 +1,99 @@
+{
+   "applyStyle": {
+      "message": "Appliquer"
+   },
+   "cancel": {
+      "message": "Annuler"
+   },
+   "chapterEditorTitle": {
+      "message": "Éditeur de chapitre"
+   },
+   "confirmDeleteStyle": {
+      "message": "Êtes-vous sûr de vouloir supprimer ce style ?"
+   },
+   "createNewStyle": {
+      "message": "Créer un nouveau style"
+   },
+   "ebookTitleLabel": {
+      "message": "Titre de l'eBook :"
+   },
+   "editChapters": {
+      "message": "Modifier les chapitres..."
+   },
+   "editStyles": {
+      "message": "Éditer les styles..."
+   },
+   "emptyBookWarning": {
+      "message": "Impossible de générer un eBook vide !"
+   },
+   "extName": {
+      "description": "Nom de l'extension",
+      "message": "Enregistrer comme eBook"
+   },
+   "generateEbook": {
+      "message": "Générer l'eBook..."
+   },
+   "howToWriteRegexLabel": {
+      "message": "Comment écrire une expression régulière"
+   },
+   "includeStyle": {
+      "message": "Inclure le style"
+   },
+   "invalidRegex": {
+      "message": "Expression régulière invalide"
+   },
+   "orLabel": {
+      "message": "ou"
+   },
+   "pageChapter": {
+      "message": "Ajouter la page en tant que chapitre"
+   },
+   "rawPreview": {
+      "message": "Aperçu brut"
+   },
+   "remove": {
+      "message": "Retirer"
+   },
+   "removeChapters": {
+      "message": "Supprimer les chapitres"
+   },
+   "removeChaptersConfirm": {
+      "message": "Voulez-vous supprimer tous les chapitres ?"
+   },
+   "removeStyle": {
+      "message": "Supprimer le style"
+   },
+   "saveChanges": {
+      "message": "Enregistrer les modifications"
+   },
+   "savePage": {
+      "message": "Enregistrer la page"
+   },
+   "saveSelection": {
+      "message": "Enregistrer la sélection"
+   },
+   "saveStyle": {
+      "message": "Enregistrer le style"
+   },
+   "selectExistingCSS": {
+      "message": "Sélectionner un style existant"
+   },
+   "selectionChapter": {
+      "message": "Ajouter la sélection en tant que chapitre"
+   },
+   "styleEditor": {
+      "message": "Éditeur de style"
+   },
+   "styleLabel": {
+      "message": "Style personnalisé :"
+   },
+   "styleNameLabel": {
+      "message": "Nom"
+   },
+   "styleSaved": {
+      "message": "Style enregistré !"
+   },
+   "waitMessage": {
+      "message": "Merci de patienter..."
+   }
+}

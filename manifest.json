@@ -1,0 +1,76 @@
+{
+   "author": "Alex Adam",
+   "background": {
+      "service_worker": "background.js"
+   },
+   "action": {
+      "default_popup": "menu.html",
+      "default_title": "Save as eBook"
+   },
+   "commands": {
+      "add-selection": {
+         "description": "Add current selection as chapter",
+         "suggested_key": "Alt+Shift+1"
+      },
+      "save-selection": {
+         "description": "Save current selection as eBook",
+         "suggested_key": "Alt+Shift+5"
+      },
+      "edit-chapters": {
+         "description": "Edit Chapters",
+         "suggested_key": "Alt+Shift+2"
+      }
+   },
+   "content_scripts": [
+      {
+         "js": [
+            "./libs/jquery.js",
+            "./libs/jquery-sortable.js",
+            "./libs/pure-parser.js",
+            "./libs/cssjson.js",
+            "./libs/chrome-extension-async.js",
+            "./libs/StreamSaver.js",
+            "./libs/zip-stream.js",
+            "utils.js",
+            "extractHtml.js",
+            "saveEbook.js",
+            "chapterEditor.js"
+         ],
+         "css": [
+            "chapterEditor.css"
+         ],
+         "matches": [
+            "<all_urls>"
+         ]
+      }
+   ],
+   "default_locale": "zh",
+   "web_accessible_resources": [
+      {
+         "resources": [
+            "./*.js",
+            "./*.css",
+            "libs/*.js"
+         ],
+         "matches": [
+            "<all_urls>"
+         ]
+      }
+   ],
+   "description": "Save a web page or selection as eBook (.epub)",
+   "icons": {
+      "48": "icons/book48.png"
+   },
+   "manifest_version": 3,
+   "name": "__MSG_extName__",
+   "permissions": [
+      "commands",
+      "contextMenus",
+      "activeTab",
+      "storage",
+      "unlimitedStorage",
+      "notifications",
+      "scripting"
+   ],
+   "version": "0.0.1"
+}

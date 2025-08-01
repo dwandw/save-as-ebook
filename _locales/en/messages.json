@@ -1,0 +1,93 @@
+{
+   "cancel": {
+      "message": "Cancel"
+   },
+   "chapterEditorTitle": {
+      "message": "Chapter Editor"
+   },
+   "confirmDeleteStyle": {
+      "message": "Are you sure you want to delete this style?"
+   },
+   "createNewStyle": {
+      "message": "Create New Style"
+   },
+   "ebookTitleLabel": {
+      "message": "eBook Title:"
+   },
+   "editChapters": {
+      "message": "Edit Chapters ..."
+   },
+   "editStyles": {
+      "message": "Edit Custom Styles ..."
+   },
+   "emptyBookWarning": {
+      "message": "Can't generate an empty eBook!"
+   },
+   "extName": {
+      "description": "Extension name",
+      "message": "Save as eBook"
+   },
+   "generateEbook": {
+      "message": "Generate eBook ..."
+   },
+   "howToWriteRegexLabel": {
+      "message": "How to write a regular expression pattern"
+   },
+   "includeStyle": {
+      "message": "Include (Custom) Style"
+   },
+   "invalidRegex": {
+      "message": "Invalid regular expression"
+   },
+   "orLabel": {
+      "message": "or"
+   },
+   "pageChapter": {
+      "message": "Add Page as Chapter"
+   },
+   "rawPreview": {
+      "message": "Raw Preview"
+   },
+   "remove": {
+      "message": "Remove"
+   },
+   "removeChapters": {
+      "message": "Remove Chapters"
+   },
+   "removeChaptersConfirm": {
+      "message": "Do you want to remove all chapters?"
+   },
+   "removeStyle": {
+      "message": "Remove Style"
+   },
+   "saveChanges": {
+      "message": "Save changes"
+   },
+   "savePage": {
+      "message": "Save Page"
+   },
+   "saveSelection": {
+      "message": "Save Selection"
+   },
+   "saveStyle": {
+      "message": "Save Style"
+   },
+   "selectExistingCSS": {
+      "message": "Select Existing CSS"
+   },
+   "selectionChapter": {
+      "message": "Add Selection as Chapter"
+   },
+   "styleEditor": {
+      "message": "Style Editor"
+   },
+   "styleNameLabel": {
+      "message": "Name"
+   },
+   "styleSaved": {
+      "message": "Style saved!"
+   },
+   "waitMessage": {
+      "message": "Please Wait ..."
+   }
+}

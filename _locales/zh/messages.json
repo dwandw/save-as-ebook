@@ -1,0 +1,93 @@
+{
+   "cancel": {
+      "message": "取消"
+   },
+   "chapterEditorTitle": {
+      "message": "章节编辑"
+   },
+   "confirmDeleteStyle": {
+      "message": "确认删除这个样式?"
+   },
+   "createNewStyle": {
+      "message": "创建新样式"
+   },
+   "ebookTitleLabel": {
+      "message": "eBook 名称:"
+   },
+   "editChapters": {
+      "message": "编辑章节 ..."
+   },
+   "editStyles": {
+      "message": "编辑自定义样式 ..."
+   },
+   "emptyBookWarning": {
+      "message": "不能生成空的 eBook!"
+   },
+   "extName": {
+      "description": "Extension name",
+      "message": "保存为eBook"
+   },
+   "generateEbook": {
+      "message": "生成 eBook ..."
+   },
+   "howToWriteRegexLabel": {
+      "message": "How to write a regular expression pattern"
+   },
+   "includeStyle": {
+      "message": "Include (Custom) Style"
+   },
+   "invalidRegex": {
+      "message": "Invalid regular expression"
+   },
+   "orLabel": {
+      "message": "或"
+   },
+   "pageChapter": {
+      "message": "以章节添加页面"
+   },
+   "rawPreview": {
+      "message": "Raw Preview"
+   },
+   "remove": {
+      "message": "移除"
+   },
+   "removeChapters": {
+      "message": "移除章节"
+   },
+   "removeChaptersConfirm": {
+      "message": "确认移除所有章节?"
+   },
+   "removeStyle": {
+      "message": "Remove Style"
+   },
+   "saveChanges": {
+      "message": "Save changes"
+   },
+   "savePage": {
+      "message": "保存页面"
+   },
+   "saveSelection": {
+      "message": "保存已选内容"
+   },
+   "saveStyle": {
+      "message": "保存样式"
+   },
+   "selectExistingCSS": {
+      "message": "选择已有样式"
+   },
+   "selectionChapter": {
+      "message": "以章节保存已选内容"
+   },
+   "styleEditor": {
+      "message": "Style Editor"
+   },
+   "styleNameLabel": {
+      "message": "Name"
+   },
+   "styleSaved": {
+      "message": "Style saved!"
+   },
+   "waitMessage": {
+      "message": "Please Wait ..."
+   }
+}

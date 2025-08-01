@@ -1,0 +1,204 @@
+body.dragging, body.dragging * {
+    cursor: move !important;
+}
+.dragged {
+    position: absolute;
+    opacity: 0.5;
+    z-index: 2000;
+}
+ul.chapterEditor-chapters-list li.placeholder {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: solid 10px #f5f5f5;
+}
+
+#chapterEditor-Title {
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+#chapterEditor-ebookTitleHolder {
+    background-color: #eee;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+#chapterEditor-ebookTitleLabel {
+    font-weight: bold;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-right: 10px;
+}
+#chapterEditor-ebookTitle {
+    padding: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    width: 85%;
+}
+ul.chapterEditor-chapters-list {
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+    list-style-type: none !important;
+}
+.chapterEditor-chapter-item {
+    display: block;
+    line-height: 35px;
+    height: 35px;
+    padding: 5px 0;
+    vertical-align: middle;
+    font-size: 17px;
+    list-style-type: none;
+}
+.chapterEditor-chapter-item:hover {
+    background-color: #f5f5f5;
+}
+.chapterEditor-drag-handler {
+    cursor: move;
+    padding: 3px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+.chapterEditor-chapter-item > input[type="text"] {
+    padding: 5px;
+    font-size: 15px;
+    font-family: sans-serif;
+    width: 80%;
+    border: none;
+    border-bottom: solid 1px #aaa;
+}
+
+#chapterEditor-modalHeader {
+    display: block;
+    overflow: hidden;
+    padding: 20px;
+}
+#chapterEditor-modalList {
+    display: block;
+    padding: 20px;
+    padding-top: 0;
+}
+#chapterEditor-modalFooter {
+    display: block;
+    overflow: hidden;
+}
+.chapter-item * {
+    vertical-align: middle;
+}
+#dragHandler {
+    padding: 0 5px;
+}
+
+
+.chapterEditor-text-button {
+    border: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0 3px;
+    outline: none;
+    cursor: pointer;
+}
+.chapterEditor-text-button:hover {
+    background-color: #000;
+    color: #fff;
+}
+.chapterEditor-text-red {
+    color: red;
+}
+
+.chapterEditor-float-left {
+    float: left;
+}
+.chapterEditor-float-right {
+    float: right;
+}
+
+.chapterEditor-footer-button {
+    position: relative;
+    overflow: hidden;
+    padding: 18px 20px;
+    margin: 0;
+    font-size: 18px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    display: inline-block;
+}
+.chapterEditor-footer-button:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+.chapterEditor-footer-button:after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 5px;
+    height: 5px;
+    background: rgba(255, 255, 255, .5);
+    opacity: 0;
+    border-radius: 100%;
+    transform: scale(1, 1) translate(-50%);
+    transform-origin: 50% 50%;
+}
+@keyframes ripple {
+    0%   { transform: scale( 0,  0); opacity: 1; }
+    20%  { transform: scale(25, 25); opacity: 1; }
+    100% { transform: scale(40, 40); opacity: 0; }
+}
+.chapterEditor-footer-button:focus:not(:active)::after {
+  animation: ripple 1s ease-out;
+}
+.chapterEditor-footer-button.chapterEditor-generate-button {
+    background-color: yellow;
+}
+.chapterEditor-footer-button.chapterEditor-generate-button:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
+.chapterEditor-footer-button.chapterEditor-cancel-button {
+    /*background-color: black;*/
+}
+
+@media (max-width: 1700px) {
+    .chapterEditor-chapter-item {
+        line-height: 30px;
+        height: 30px;
+        padding: 4px 0;
+        font-size: 14px;
+    }
+    .chapterEditor-chapter-item > input[type="text"] {
+        padding: 3px;
+        font-size: 12px;
+        width: 75%;
+    }
+    .chapterEditor-text-button {
+        font-size: 12px;
+        padding: 3px;
+        margin: 0 2px;
+    }
+    .chapterEditor-footer-button {
+        padding: 15px 20px;
+        margin: 0;
+        font-size: 15px;
+        border: none;
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+
+@media (max-width: 1100px) {
+    .chapterEditor-chapter-item {
+        line-height: 30px;
+        height: 60px;
+        padding: 4px 0;
+        font-size: 14px;
+    }
+    .chapterEditor-chapter-item > input[type="text"] {
+        width: 90%;
+    }
+}

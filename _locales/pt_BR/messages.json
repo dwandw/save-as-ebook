@@ -1,0 +1,93 @@
+{
+   "cancel": {
+      "message": "Cancelar"
+   },
+   "chapterEditorTitle": {
+      "message": "Editor de capítulos"
+   },
+   "confirmDeleteStyle": {
+      "message": "Tem certeza de que deseja excluir este estilo?"
+   },
+   "createNewStyle": {
+      "message": "Criar Novo Estilo"
+   },
+   "ebookTitleLabel": {
+      "message": "Título do eBook:"
+   },
+   "editChapters": {
+      "message": "Editar Capítulos ..."
+   },
+   "editStyles": {
+      "message": "Editar estilos personalizados ..."
+   },
+   "emptyBookWarning": {
+      "message": "Não é possível gerar um eBook vazio!"
+   },
+   "extName": {
+      "description": "Nome da extensão",
+      "message": "Salvar como eBook"
+   },
+   "generateEbook": {
+      "message": "Gerar eBook ..."
+   },
+   "howToWriteRegexLabel": {
+      "message": "Como escrever um padrão de expressão regular"
+   },
+   "includeStyle": {
+      "message": "Incuir estilo (personalizado)"
+   },
+   "invalidRegex": {
+      "message": "Expressão regular inválida"
+   },
+   "orLabel": {
+      "message": "ou"
+   },
+   "pageChapter": {
+      "message": "Adicionar página como capítulo"
+   },
+   "rawPreview": {
+      "message": "Pré-visualização"
+   },
+   "remove": {
+      "message": "Remover"
+   },
+   "removeChapters": {
+      "message": "Remover capítulos"
+   },
+   "removeChaptersConfirm": {
+      "message": "Você quer remover todos os capítulos?"
+   },
+   "removeStyle": {
+      "message": "Remover Estilo"
+   },
+   "saveChanges": {
+      "message": "Salvar alterações"
+   },
+   "savePage": {
+      "message": "Salvar Página"
+   },
+   "saveSelection": {
+      "message": "Salvar Selecão"
+   },
+   "saveStyle": {
+      "message": "Salvar Estilo"
+   },
+   "selectExistingCSS": {
+      "message": "Selecionar CSS Existente"
+   },
+   "selectionChapter": {
+      "message": "Adicionar seleção como capítulo"
+   },
+   "styleEditor": {
+      "message": "Editor de estilo"
+   },
+   "styleNameLabel": {
+      "message": "Nome"
+   },
+   "styleSaved": {
+      "message": "Estilo salvo!"
+   },
+   "waitMessage": {
+      "message": "Por favor, aguarde ..."
+   }
+}

@@ -1,0 +1,190 @@
+#cssEditor-removeStyle {
+    display: none;
+}
+#cssEditor-saveStyle {
+    display: none;
+}
+#cssEditor-selectStyle {
+    padding: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+#cssEditor-selectStyle > option {
+    padding: 3px;
+    font-size: 1em;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+#cssEditor-orLabel {
+    padding: 3px;
+    margin: 0 3px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+#cssEditor-createNewStyle {
+    padding: 3px;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+.cssEditor-field-label-holder {
+    margin-top: 10px;
+    font-size: 15px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+}
+.cssEditor-field-holder {
+    padding: 3px;
+    width: 90%;
+}
+.cssEditor-field-label {
+    padding: 0 3px;
+    margin-top: 5px;
+}
+
+#cssEditor-styleEditor {
+    display: flex;
+    flex-flow: row;
+}
+
+.cssEditor-left-panel {
+    width: 48%;
+    display: flex;
+    flex-flow: column;
+}
+
+.cssEditor-right-panel {
+    width: 48%;
+    display: flex;
+    flex-flow: column;
+}
+
+#cssEditor-styleName {
+    width: 100%;
+    min-width: 100%;
+    padding: 5px;
+    border: solid rgba(0, 0, 0, 0.25) 1px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+#cssEditor-matchUrl {
+    width: 100%;
+    min-width: 100%;
+    padding: 5px;
+    border: solid rgba(0, 0, 0, 0.25) 1px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+#cssEditor-styleContent {
+    width: 100%;
+    height: 150px;
+    padding: 5px;
+    border: solid rgba(0, 0, 0, 0.25) 1px;
+    font-size: 15px;
+    font-family: sans-serif;
+}
+
+#cssEditor-Title {
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    display: inline-block;
+    font-family: sans-serif;
+}
+
+#cssEditor-ebookTitleHolder {
+    background-color: #eee;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+#cssEditor-modalHeader {
+    display: block;
+    overflow: hidden;
+    padding: 20px;
+}
+#cssEditor-modalList {
+    display: block;
+    padding: 20px;
+    padding-top: 0;
+}
+#cssEditor-modalFooter {
+    display: block;
+    overflow: hidden;
+}
+
+.cssEditor-text-button {
+    border: none;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0);
+    margin: 0 3px;
+    outline: none;
+    cursor: pointer;
+}
+.cssEditor-text-button:hover {
+    background-color: #000;
+    color: #fff;
+}
+.cssEditor-text-red {
+    color: red;
+}
+
+.cssEditor-float-left {
+    float: left;
+}
+.cssEditor-float-right {
+    float: right;
+}
+
+.cssEditor-footer-button {
+    padding: 18px 20px;
+    margin: 0;
+    font-size: 18px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0);
+    display: inline-block;
+}
+.cssEditor-footer-button:hover {
+    color: white;
+    background-color: rgba(0, 0, 0, 1);
+    cursor: pointer;
+}
+.cssEditor-save-button {
+    background-color: yellow;
+}
+.cssEditor-cancel-button {
+    /*background-color: black;*/
+}
+
+@media (max-width: 1700px) {
+    .cssEditor-text-button {
+        font-size: 12px;
+        padding: 3px;
+        margin: 0 2px;
+    }
+    .cssEditor-footer-button {
+        padding: 15px 20px;
+        margin: 0;
+        font-size: 15px;
+        border: none;
+        background-color: rgba(0, 0, 0, 0);
+    }
+}
+
+@media (max-width: 1100px) {
+    .cssEditor-chapter-item {
+        line-height: 30px;
+        height: 60px;
+        padding: 4px 0;
+        font-size: 14px;
+    }
+    .cssEditor-chapter-item > input[type="text"] {
+        width: 90%;
+    }
+}

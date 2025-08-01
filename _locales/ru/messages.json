@@ -1,0 +1,93 @@
+{
+   "cancel": {
+      "message": "Отмена"
+   },
+   "chapterEditorTitle": {
+      "message": "Редактор глав"
+   },
+   "confirmDeleteStyle": {
+      "message": "Вы точно хотите удалить этот стиль?"
+   },
+   "createNewStyle": {
+      "message": "Создать новый стиль"
+   },
+   "ebookTitleLabel": {
+      "message": "Заголовок книги:"
+   },
+   "editChapters": {
+      "message": "Редактировать главы ..."
+   },
+   "editStyles": {
+      "message": "Редактировать CSS ..."
+   },
+   "emptyBookWarning": {
+      "message": "Невозможно создать пустую книгу"
+   },
+   "extName": {
+      "description": "Extension name",
+      "message": "Save as eBook"
+   },
+   "generateEbook": {
+      "message": "Создать книгу ..."
+   },
+   "howToWriteRegexLabel": {
+      "message": "Введите регулярное выражение для адреса"
+   },
+   "includeStyle": {
+      "message": "Подключить CSS"
+   },
+   "invalidRegex": {
+      "message": "Ошибка в регулярном выражении"
+   },
+   "orLabel": {
+      "message": "или"
+   },
+   "pageChapter": {
+      "message": "Добавить страницу как главу"
+   },
+   "rawPreview": {
+      "message": "Предпросмотр"
+   },
+   "remove": {
+      "message": "Удалить"
+   },
+   "removeChapters": {
+      "message": "Удалить главы"
+   },
+   "removeChaptersConfirm": {
+      "message": "Вы точно хотите удалить все главы?"
+   },
+   "removeStyle": {
+      "message": "Удалить стиль"
+   },
+   "saveChanges": {
+      "message": "Сохранить изменения"
+   },
+   "savePage": {
+      "message": "Сохранить страницу"
+   },
+   "saveSelection": {
+      "message": "Сохранить выделение"
+   },
+   "saveStyle": {
+      "message": "Сохранить стиль"
+   },
+   "selectExistingCSS": {
+      "message": "Выбрать существующий стиль"
+   },
+   "selectionChapter": {
+      "message": "Добавить выделение как главу"
+   },
+   "styleEditor": {
+      "message": "Редактор стилей"
+   },
+   "styleNameLabel": {
+      "message": "Название"
+   },
+   "styleSaved": {
+      "message": "Стиль сохранен!"
+   },
+   "waitMessage": {
+      "message": "Пожалуйста ожидайте ..."
+   }
+}
